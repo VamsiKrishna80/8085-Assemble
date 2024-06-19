@@ -20,7 +20,7 @@ char *detect_colon(char *ptr);
 char detect_levels(char *ptr);
 char *Find_address(char *ptr);
 char *Find_level_name_and_address(char *ptr);
-char convert_decimal_to_hex(char nibble);
+char convert_decimal_to_hex_decimal(char nibble);
 void store_the_address(short address);
 char *store_level_address_and_name(char *Start,char *End);
 void Instruction_Line(char *Instruct);

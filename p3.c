@@ -6,7 +6,7 @@ void Error(void);
 unsigned int HexCode; // OPCODE
 
 
-unsigned int First_char_M(char *Instrct);
+//unsigned int First_char_M(char *Instrct);
 unsigned int First_char_A(char *Instrct);
 unsigned int First_char_C(char *Instrct);
 unsigned int First_char_D(char *Instrct);
